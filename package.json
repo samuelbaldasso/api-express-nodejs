@@ -1,13 +1,16 @@
 {
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15",
+    "uuidv4": "^6.2.12"
+  },
   "name": "backend",
   "version": "1.0.0",
   "main": "src/index.js",
-  "license": "MIT",
   "scripts": {
     "dev": "nodemon"
   },
-  "dependencies": {
-    "express": "^4.17.1",
-    "nodemon": "^2.0.15"
-  }
+  "repository": "https://github.com/samuelbaldasso/api-express-nodejs.git",
+  "author": "Samuel Baldasso <samuelbaldasso93@gmail.com>",
+  "license": "MIT"
 }
